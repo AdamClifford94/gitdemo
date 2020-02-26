@@ -8,5 +8,8 @@ node {
   stage('Compile-Package'){
     sh 'mvn package'
   }
+  stage('install-Package'){
+    sh 'mvn install'
+  } 
   
 }
