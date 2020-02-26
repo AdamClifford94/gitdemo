@@ -6,6 +6,7 @@ node {
     sh 'mvn test'
   }
   stage('Compile-Package'){
+    sh "mvn clean"
     sh 'mvn package'
   }
   stage('install-Package'){
