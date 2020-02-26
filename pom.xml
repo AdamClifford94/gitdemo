@@ -53,6 +53,9 @@
           <version>3.0.2</version>
           <configuration>
              <outputDirectory>/home/ec2-user/artifacts/</outputDirectory>
+            <includes>
+               <include>**/src/*</include>
+            </includes>
           </configuration>
         </plugin>
         <plugin>
